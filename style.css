@@ -1,0 +1,35 @@
+.tabs__controls_item {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.tabs__controls_link {
+    background-color: aquamarine;
+    display: inline-block;
+    width: 50px;
+    padding: 10px 15px;
+    color: black;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+.tabs__controls_link.active {
+    background-color: orange;
+}
+
+
+
+.tabs__list {
+    list-style: none;
+}
+
+.tabs__item {
+    display: none;
+}
+
+.tabs__item.active {
+    display: block;
+}
